@@ -1,0 +1,61 @@
+Project: IEEE 13 Node Feeder
+Relays found: 5  (5 in the active network)
+Fuses found : 0
+==============================================================================
+RELAY R1   (\subas.IntUser\IEEE 13 Node Feeder.IntPrj\Network Model.IntPrjfolder\Network Data.IntPrjfolder\Grid.ElmNet\632.ElmTerm\Cub_5.StaCubic\R1.ElmRelay)
+  out of service : 0
+  relay type     : NONE - no type selected
+  location       : terminal 632, cubicle Cub_5
+  branch         : LOHL650-632 (ElmLne), end bus2, far end RG60
+  slots          : []
+  elements (0):
+  also in the cubicle: [Switch (StaSwitch)]
+------------------------------------------------------------------------------
+3-phase bolted fault at 632 (Complete method, DG out of service)
+  short circuit FAILED
+==============================================================================
+RELAY R2   (\subas.IntUser\IEEE 13 Node Feeder.IntPrj\Network Model.IntPrjfolder\Network Data.IntPrjfolder\Grid.ElmNet\671.ElmTerm\Cub_3.StaCubic\R2.ElmRelay)
+  out of service : 0
+  relay type     : NONE - no type selected
+  location       : terminal 671, cubicle Cub_3
+  branch         : LOHL632-671end (ElmLne), end bus2, far end nDL5
+  slots          : []
+  elements (0):
+  also in the cubicle: [Switch (StaSwitch)]
+------------------------------------------------------------------------------
+3-phase bolted fault at 671 (Complete method, DG out of service)
+  short circuit FAILED
+==============================================================================
+RELAY R1   (\subas.IntUser\IEEE 13 Node Feeder.IntPrj\Network Model.IntPrjfolder\Network Data.IntPrjfolder\Grid.ElmNet\RG60.ElmTerm\Cub_1.StaCubic\R1.ElmRelay)
+  out of service : 0
+  relay type     : NONE - no type selected
+  location       : terminal RG60, cubicle Cub_1
+  branch         : LOHL650-632 (ElmLne), end bus1, far end 632
+  slots          : []
+  elements (0):
+  also in the cubicle: [Switch (StaSwitch)]
+------------------------------------------------------------------------------
+3-phase bolted fault at 632 (Complete method, DG out of service)
+  short circuit FAILED
+==============================================================================
+RELAY Relay Model   (\subas.IntUser\IEEE 13 Node Feeder.IntPrj\Network Model.IntPrjfolder\Network Data.IntPrjfolder\Grid.ElmNet\nDL5.ElmTerm\Cub_0.StaCubic\Relay Model.ElmRelay)
+  out of service : 0
+  relay type     : NONE - no type selected
+  location       : terminal nDL5, cubicle Cub_0
+  branch         : LOHL632-671end (ElmLne), end bus1, far end 671
+  slots          : []
+  elements (0):
+  also in the cubicle: [R2 (ElmRelay)]
+==============================================================================
+RELAY R2   (\subas.IntUser\IEEE 13 Node Feeder.IntPrj\Network Model.IntPrjfolder\Network Data.IntPrjfolder\Grid.ElmNet\nDL5.ElmTerm\Cub_0.StaCubic\R2.ElmRelay)
+  out of service : 0
+  relay type     : NONE - no type selected
+  location       : terminal nDL5, cubicle Cub_0
+  branch         : LOHL632-671end (ElmLne), end bus1, far end 671
+  slots          : []
+  elements (0):
+  also in the cubicle: [Relay Model (ElmRelay)]
+------------------------------------------------------------------------------
+3-phase bolted fault at 671 (Complete method, DG out of service)
+  short circuit FAILED
+==============================================================================

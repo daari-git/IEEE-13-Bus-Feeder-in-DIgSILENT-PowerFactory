@@ -1,0 +1,357 @@
+
+##########################################################################################
+#  1. TABLES II AND III  -  IEEE 13-node feeder (Yousaf et al. 2022)
+##########################################################################################
+info - A calculation relevant object was changed!
+info - The calculation results have been deleted.
+info - Element 'External Grid' is local reference in separated area of '650'
+info - Calculating load flow...
+info - -------------------------------------------------------------------------------------
+info - Start Newton-Raphson Algorithm...
+info - Load flow iteration: 0
+info - Load flow iteration: 1
+info - Load flow iteration: 2
+info - Load flow iteration: 3
+info - Newton-Raphson converged with 3 iterations.
+info - Load flow calculation successful.
+info - -------------------------------------------------------------------------------------
+info -      Report of Control Condition for Relevant Controllers
+info - -------------------------------------------------------------------------------------
+info - Control conditions for all controllers of interest are fulfilled.
+info - A calculation relevant object was changed!
+info - The calculation results have been deleted.
+------------------------------------------------------
+TABLE II   MAXIMUM / MINIMUM / RATED BRANCH CURRENT
+           IEEE 13-NODE RADIAL FEEDER
+------------------------------------------------------
+From      To    |      I_nom |    I_f,min |    I_f,max
+                |        (A) |       (kA) |       (kA)
+------------------------------------------------------
+RG60      632   |      587.6 |       1.08 |       7.91
+632       633   |       81.1 |       0.77 |       6.26
+632       645   |      143.4 |       0.84 |       4.67
+632       671   |      479.0 |       0.91 |       4.71
+XFM1-HV   side  |       81.1 |       0.73 |       6.26
+XFM1-LV   side  |      706.3 |       0.70 |      18.20
+645       646   |       65.4 |       0.77 |       4.01
+671       692   |      229.8 |       0.73 |       4.71
+671       684   |       71.1 |       0.66 |       3.39
+671       680   |        0.0 |       0.64 |       3.86
+692       675   |      205.9 |       0.73 |       4.25
+684       611   |       71.1 |       0.68 |       2.20
+684       652   |       63.0 |       0.66 |       2.20
+------------------------------------------------------
+Load flow: AC unbalanced (ABC).  Short circuit: Complete method.
+I_f,max: bolted 3-phase fault at the downstream node, max. currents (LL at 645, 646, 684 and LG at 611, 652: no 3-phase fault possible).
+I_f,min: single line-to-ground fault, Rf = 3 ohm, farthest node, min. currents.  DG out of service.
+
+--------------------------------------------------------------------------------
+TABLE III  FUSE COEFFICIENTS (a_i, b_i) FOR RECLOSER-FUSE COORDINATION
+--------------------------------------------------------------------------------
+Fuse    Rec   i/z |    I_fuse     I_rec |     t_F     t_D |    b_i  paper
+                  |       (A)       (A) |     (s)     (s) |              
+--------------------------------------------------------------------------------
+F632    R1    1/2 |      4668      4834 |   0.081   1.625 |   6.38   6.38
+F633    R1    1/2 |      6258      6349 |   0.056   1.117 |   6.45   6.83
+F634    R1    2/2 |     18198      2377 |   0.261   5.227 |   8.22   8.32
+F645    R1    2/2 |      4668      4834 |   0.081   1.625 |   6.65   6.65
+F646    R1    2/2 |      4007      4220 |   0.099   1.983 |   6.62   6.67
+F-DL    R1    1/1 |      4707      4736 |   0.084   1.673 |   6.55   6.54
+F671    R2    1/1 |      3865      3927 |   0.131   0.653 |   6.05   6.08
+F671-1  R2    1/3 |      4705      4707 |   0.101   0.507 |   5.92   5.85
+F692    R2    2/2 |      4705      4707 |   0.101   0.507 |   6.18   6.13
+F692-R  R2    2/3 |      4247      4280 |   0.116   0.578 |   6.07   6.14
+F675    R2    3/3 |      4247      4280 |   0.116   0.578 |   6.20   6.19
+F671-2  R2    1/3 |      3389      3563 |   0.151   0.753 |   5.83   5.87
+F684    R2    2/3 |      2198      2367 |   0.290   1.452 |   5.96   6.15
+F611    R2    3/3 |      2198      2367 |   0.290   1.452 |   6.08   6.19
+F652    R2    2/2 |      2199      2408 |   0.282   1.409 |   6.03   6.17
+--------------------------------------------------------------------------------
+a_i = -1.8.  Ip = 1.25 x I_nom.  GE IAC extremely inverse.  R1 TDS 0.5/10,  R2 TDS 0.8/4.  DG out of service.
+Saved: D:\Protection and co-ordination\Result\Table_II.csv
+Saved: D:\Protection and co-ordination\Result\Table_III.csv
+
+##########################################################################################
+#  2. TABLE IV  -  operating times of R1, R2 and the fuses, model and paper
+##########################################################################################
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+info - A calculation relevant object was changed!
+info - The calculation results have been deleted.
+TABLE IV
+VALIDATION OF RECLOSER-FUSE COORDINATION FOR DIFFERENT FAULTS
+
+   MODEL (PowerFactory, DG in service, bolted fault; R2 as DSDR upstream of R2)
+   --------------------------------------------------------------------------
+   Faulted  Fault   |         R1        |         R2        |     Fuse
+   Node     type    |     Fast  Delayed |     Fast  Delayed |  (t_MMT)   fuse
+   --------------------------------------------------------------------------
+   632      LLL     |    0.041    0.825 |    0.058    0.956 |      ---   ---
+   633      LLL     |    0.058    1.157 |    0.089    1.477 |    0.740   F633
+   645      LLG     |    0.081    1.614 |    0.122    2.030 |    0.425   F632
+   646      LLG     |    0.100    1.998 |    0.158    2.622 |    1.097   F646
+   DL       LLL     |    0.060    1.196 |    0.051    0.840 |    0.337   F-DL
+   671      LLL     |    0.081    1.629 |    0.102    0.510 |      ---   ---
+   692      LLL     |    0.081    1.629 |    0.102    0.510 |    0.174   F671-1
+   675      LLL     |    0.098    1.962 |    0.123    0.615 |    0.217   F692-R
+   684      LLG     |    0.128    2.562 |    0.156    0.782 |    0.174   F671-2
+   680      LLL     |    0.119    2.371 |    0.146    0.731 |    0.243   F671
+   611      LG      |    0.308    6.161 |    0.382    1.910 |    1.076   F684
+   652      LG      |    0.317    6.337 |    0.371    1.853 |    1.142   F652
+   --------------------------------------------------------------------------
+
+   PAPER (Yousaf et al. 2022)
+   ------------------------------------------------------------
+   Faulted  |         R1        |         R2        |     Fuse
+   Node     |     Fast  Delayed |     Fast  Delayed |  (t_MMT)
+   ------------------------------------------------------------
+   632      |    0.070    1.398 |    0.045    0.514 |      ---
+   633      |    0.094    1.880 |    0.052    0.706 |    0.163
+   645      |    0.105    2.095 |    0.087    1.659 |    0.276
+   646      |    0.128    2.555 |    0.103    2.046 |    0.181
+   DL       |    0.087    1.733 |    0.076    1.402 |    0.248
+   671      |    0.105    2.091 |    0.068    1.113 |      ---
+   692      |    0.115    2.307 |    0.072    1.258 |    0.175
+   675      |    0.121    2.414 |    0.074    1.332 |    0.185
+   684      |    0.125    2.507 |    0.075    1.394 |    0.205
+   680      |    0.137    2.747 |    0.079    1.555 |      ---
+   611      |    0.326    6.523 |    0.146    4.385 |    0.417
+   652      |    0.676   13.525 |    0.143    9.370 |    0.233
+   ------------------------------------------------------------
+
+   Model / paper, R1 fast:  632 0.59  633 0.62  645 0.77  646 0.78  DL 0.69  671 0.78  692 0.71  675 0.81  684 1.02  680 0.87  611 0.94  652 0.47
+   R1 agrees with the paper; R2 and the fuses differ because the fuses follow eq. (6)
+   with the Table III b_i, and the paper's R2 settings are not published.
+
+##########################################################################################
+#  3. FIG. 14  -  recloser-fuse coordination WITHOUT the DSDR
+##########################################################################################
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+info - A calculation relevant object was changed!
+info - The calculation results have been deleted.
+
+   MODEL (PowerFactory, DG in service)
+                     (v) Exist     (x) Doesn't Exist     (-) Not Applicable
+   Fault Type
+   LG     |--(-)---(x)---(-)---(v)---(v)---(-)---(v)---(v)---(v)---(v)---(v)---(v)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LL     |--(-)---(x)---(-)---(x)---(x)---(-)---(v)---(v)---(v)---(v)---(-)---(-)---(x)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLG    |--(-)---(x)---(-)---(x)---(x)---(-)---(v)---(v)---(v)---(v)---(-)---(-)---(x)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLL    |--(-)---(x)---(-)---(-)---(-)---(-)---(v)---(v)---(v)---(-)---(-)---(-)---(x)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+          +-------------------------------------------------------------------------------->
+             632   633   634   645   646   671   692   675   680   684   652   611   DL   
+                                             Faulted Node
+
+   PAPER (Yousaf et al. 2022)
+                     (v) Exist     (x) Doesn't Exist     (-) Not Applicable
+   Fault Type
+   LG     |--(v)---(v)---(-)---(x)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LL     |--(v)---(v)---(-)---(x)---(x)---(v)---(v)---(v)---(v)---(v)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLG    |--(v)---(x)---(-)---(x)---(x)---(v)---(v)---(x)---(v)---(v)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLL    |--(v)---(x)---(-)---(-)---(-)---(v)---(v)---(x)---(v)---(-)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+          +-------------------------------------------------------------------------------->
+             632   633   634   645   646   671   692   675   680   684   652   611   DL   
+              *     *           *           *           *                             *   
+                                             Faulted Node
+Fig. 14. Classification of the protection coordination for all the nodes against different fault types without the DSDR.
+
+Model: exist 20, doesn't exist 11.
+Against the paper, cells rated in both: 23 agree, 8 differ (633 LG, 633 LL, 645 LG, 675 LLG, 675 LLL, DL LL, DL LLG, DL LLL)
+The paper also rates 632 and 671, which have no fuse in the faulted path; the
+model marks them not applicable (no recloser-fuse pair to check).
+
+Why coordination doesn't exist (model):
+  633 LG   F633 clears 2.728 s at 4316 A, after R1 delayed 2.155 s at 3916 A
+  633 LL   R2 fast 1.900 s at 1012 A is not before F633 melting 0.979 s at 6305 A
+  633 LLG  R2 fast 1.481 s at 1107 A is not before F633 melting 0.908 s at 6571 A
+  633 LLL  R2 fast 0.877 s at 1365 A is not before F633 melting 0.740 s at 7364 A
+  645 LL   R2 fast 1.435 s at 1120 A is not before F632 melting 0.458 s at 5407 A
+  645 LLG  R2 fast 1.372 s at 1139 A is not before F632 melting 0.425 s at 5633 A
+  646 LL   R2 fast 2.067 s at 983 A is not before F646 melting 1.219 s at 4548 A
+  646 LLG  R2 fast 1.997 s at 995 A is not before F646 melting 1.097 s at 4822 A
+  DL  LL   R2 fast 0.734 s at 1477 A is not before F-DL melting 0.445 s at 6742 A
+  DL  LLG  R2 fast 0.606 s at 1614 A is not before F-DL melting 0.413 s at 7030 A
+  DL  LLL  R2 fast 0.414 s at 1952 A is not before F-DL melting 0.337 s at 7866 A
+
+##########################################################################################
+#  4. FIG. 17  -  recloser-fuse coordination WITH the DSDR
+##########################################################################################
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+err  - Error in Short-Circuit data! Short-circuit calculation not executed.
+err  - Short-circuit calculation not possible.
+info - A calculation relevant object was changed!
+info - The calculation results have been deleted.
+
+   MODEL (PowerFactory, DG in service)
+                     (v) Exist     (x) Doesn't Exist     (-) Not Applicable
+   Fault Type
+   LG     |--(-)---(x)---(-)---(v)---(v)---(-)---(v)---(v)---(v)---(v)---(v)---(v)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LL     |--(-)---(v)---(-)---(v)---(v)---(-)---(v)---(v)---(v)---(v)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLG    |--(-)---(v)---(-)---(v)---(v)---(-)---(v)---(v)---(v)---(v)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLL    |--(-)---(v)---(-)---(-)---(-)---(-)---(v)---(v)---(v)---(-)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+          +-------------------------------------------------------------------------------->
+             632   633   634   645   646   671   692   675   680   684   652   611   DL   
+                                             Faulted Node
+
+   PAPER (Yousaf et al. 2022)
+                     (v) Exist     (x) Doesn't Exist     (-) Not Applicable
+   Fault Type
+   LG     |--(v)---(v)---(-)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LL     |--(v)---(v)---(-)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLG    |--(v)---(v)---(-)---(v)---(v)---(v)---(v)---(v)---(v)---(v)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+   LLL    |--(v)---(v)---(-)---(-)---(-)---(v)---(v)---(v)---(v)---(-)---(-)---(-)---(v)-
+          |   |     |     |     |     |     |     |     |     |     |     |     |     |  
+          +-------------------------------------------------------------------------------->
+             632   633   634   645   646   671   692   675   680   684   652   611   DL   
+              *     *                       *                                             
+                                             Faulted Node
+Fig. 17. Classification of the protection coordination for all the nodes against different fault types by utilizing the proposed protection strategy with DSDR.
+
+Model: exist 30, doesn't exist 1.
+Against the paper, cells rated in both: 30 agree, 1 differ (633 LG)
+The paper also rates 632 and 671, which have no fuse in the faulted path; the
+model marks them not applicable (no recloser-fuse pair to check).
+
+Why coordination doesn't exist (model):
+  633 LG   F633 clears 2.728 s at 4316 A, after R1 delayed 2.155 s at 3916 A
+
+##########################################################################################
+#  5. FIGS. 8, 9, 11, 12, 13, 16  -  time-overcurrent plots (pages 'Fig 8' ...)
+##########################################################################################
+info - Exported diagram Fig 8 - SLG fault at node 611 to file 'D:\Protection and co-ordination\Result\PF_Figures\Fig08.png'.
+Fig 8   SLG fault at node 611 (node 611, LG, phase option 0, Rf 0.0 ohm)
+        currents: R2 2037 A, F684 2507 A, F671-2 2507 A
+        page 'Fig 8 - SLG fault at node 611', command 'Fault Fig 8', image D:\Protection and co-ordination\Result\PF_Figures\Fig08.png
+info - Exported diagram Fig 9 - LLG fault at mid 692-675 Rf 1 oh to file 'D:\Protection and co-ordination\Result\PF_Figures\Fig09.png'.
+Fig 9   LLG fault at mid 692-675, Rf 1 ohm (LC692-675 at 50 %%, LLG, phase option 2, Rf 1.0 ohm)
+        currents: R2 1600 A, F692-R 2234 A, F671-1 1413 A
+        page 'Fig 9 - LLG fault at mid 692-675 Rf 1 ohm', command 'Fault Fig 9', image D:\Protection and co-ordination\Result\PF_Figures\Fig09.png
+info - Exported diagram Fig 11 - LL fault at node 646 Rf 1 ohm to file 'D:\Protection and co-ordination\Result\PF_Figures\Fig11.png'.
+Fig 11  LL fault at node 646, Rf 1 ohm (node 646, LL, phase option 0, Rf 1.0 ohm)
+        currents: R1 2269 A, F646 2585 A, F632 2624 A
+        page 'Fig 11 - LL fault at node 646 Rf 1 ohm', command 'Fault Fig 11', image D:\Protection and co-ordination\Result\PF_Figures\Fig11.png
+info - Exported diagram Fig 12 - LL fault at node 645 Rf 15 ohm to file 'D:\Protection and co-ordination\Result\PF_Figures\Fig12.png'.
+Fig 12  LL fault at node 645, Rf 1.5 ohm (node 645, LL, phase option 1, Rf 1.5 ohm)
+        currents: R2 644 A, F646 50 A, F632 2253 A
+        page 'Fig 12 - LL fault at node 645 Rf 15 ohm', command 'Fault Fig 12', image D:\Protection and co-ordination\Result\PF_Figures\Fig12.png
+info - Exported diagram Fig 13 - 3-phase fault at 10 pct of line to file 'D:\Protection and co-ordination\Result\PF_Figures\Fig13.png'.
+Fig 13  3-phase fault at 10 %% of line 632-633 (LOHL632-633 at 10 %%, LLL, Rf 0.0 ohm)
+        currents: R2 1736 A, F633 9377 A
+        page 'Fig 13 - 3-phase fault at 10 pct of line 632-633', command 'Fault Fig 13', image D:\Protection and co-ordination\Result\PF_Figures\Fig13.png
+info - Exported diagram Fig 16 - solid LL fault at node 646 to file 'D:\Protection and co-ordination\Result\PF_Figures\Fig16.png'.
+Fig 16  solid LL fault at node 646 (node 646, LL, phase option 1, Rf 0.0 ohm)
+        currents: R1 3818 A, F646 4548 A, F632 4579 A
+        page 'Fig 16 - solid LL fault at node 646', command 'Fault Fig 16', image D:\Protection and co-ordination\Result\PF_Figures\Fig16.png
+
+Each page shows its fault lines right after it is drawn; only the last fault stays
+calculated. Execute 'Fault Fig ..' in the study case to show another figure's lines.

@@ -1,0 +1,20 @@
+Relay type: \Lib.IntLibrary\Prot\Arch\Relays\Overcurrent Relays\General Electric\IAC Serie\60Hz\Extremely Inverse\IAC77B801A.TypRelay
+==============================================================================
+R1: RG60, cubicle Cub_1, branch LOHL650-632 (bus1)
+  CT 900/5, tap 4.0 A -> 720.0 A primary (Ip 734.5 A, -2.0 %)
+  CT R1 CT: 900.0 / 5.0 A
+  R1           (fast) curve IAC Extremely Inverse GES7005B, time dial 0.5, tap 4.0 A = 720.0 A primary  OK
+  R1 Delayed   (delayed) curve IAC Extremely Inverse GES7005B, time dial 10.0, tap 4.0 A = 720.0 A primary  OK
+==============================================================================
+R2: 671, cubicle Cub_3, branch LOHL632-671end (bus2)
+  CT 1000/5, tap 3.0 A -> 600.0 A primary (Ip 598.8 A, +0.2 %)
+  CT R2 CT: 1000.0 / 5.0 A
+  R2           (fast) curve IAC Extremely Inverse GES7005B, time dial 0.800000011920929, tap 3.0 A = 600.0 A primary  OK
+  R2 Delayed   (delayed) curve IAC Extremely Inverse GES7005B, time dial 4.0, tap 3.0 A = 600.0 A primary  OK
+------------------------------------------------------------------------------
+R1: 3-phase fault at 632, 7302 A through the recloser, M = 10.14 (pickup 720.0 A)
+  GE IAC curve: fast 0.045 s, delayed 0.910 s
+------------------------------------------------------------------------------
+R2: 3-phase fault at 671, 4433 A through the recloser, M = 7.39 (pickup 600.0 A)
+  GE IAC curve: fast 0.110 s, delayed 0.552 s
+==============================================================================

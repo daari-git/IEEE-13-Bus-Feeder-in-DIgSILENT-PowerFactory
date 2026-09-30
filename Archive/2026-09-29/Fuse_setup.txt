@@ -1,0 +1,165 @@
+Library fuse used as the template:
+  \Lib.IntLibrary\Prot\ProtFuse\Gould-Shawmut\A055B\v001\A055B 750.TypFuse  [TypFuse]
+    itype     = 1
+    chartype  = 0
+    interpol  = 0
+    frq       = 60
+    urat      = 5.5
+    irat      = 750
+    Ibnom     = 0
+    Ipnom     = 0
+    pmelt     = A055B(750) (TypChatoc)
+    vmat shape [1, 0], 1 rows
+      
+  \Lib.IntLibrary\Prot\ProtFuse\Gould-Shawmut\A055B\v001\A055B(750).TypChatoc  [TypChatoc]
+    i_use     = 1
+    i_type    = 6
+    i_multx   = 0
+    i_curves  = 2
+    i_drawt   = 0
+    tresunit  = 0
+    imin      = 1
+    imax      = 20
+    tmin      = 0.01
+    rTp       = 
+    rResetT   = 
+    expr      = []
+    vmat shape [46, 4], 46 rows
+      1600, 1000, 1900, 1000
+      1623, 900, 1931, 900
+      1650, 800, 1966, 800
+      1681, 700, 2006, 700
+      ...
+      24209, 0.02, 32561, 0.02
+      33000, 0.01, 47000, 0.01
+Clearing / melting current ratio of the template: 1.21
+Removed 19 fuses and the type folder of an earlier run.
+Network state after the load flow (DG out of service):
+  de-energised nodes : CableShield675, CableShield692
+======================================================================================
+FUSES  (MMT: log10 t = -1.8 log10 I + b_i,  TCT at 1.21 x the MMT current)
+--------------------------------------------------------------------------------------
+Curve written for F632:
+  \subas.IntUser\IEEE 13 Node Feeder.IntPrj\Library.IntPrjfolder\Equipment Type Library.IntPrjfolder\Fuse Types Yousaf 2022\Yousaf F632 melt.TypChatoc  [TypChatoc]
+    i_use     = 1
+    i_type    = 6
+    i_multx   = 0
+    i_curves  = 2
+    i_drawt   = 0
+    tresunit  = 0
+    imin      = 1
+    imax      = 20
+    tmin      = 0.01
+    rTp       = 
+    rResetT   = 
+    expr      = []
+    vmat shape [25, 4], 25 rows
+      75.471, 1000, 91.107, 1000
+      98.519, 618.97, 118.93, 618.97
+      128.61, 383.12, 155.25, 383.12
+      167.88, 237.14, 202.66, 237.14
+      ...
+      34659, 0.016156, 41840, 0.016156
+      45243, 0.01, 54617, 0.01
+Short-circuit test at 645:
+  no fuse in the network                           OK
+  F632 in service (2-phase)                        OK
+  F632 in service, protection not evaluated        OK
+  F632 out of service                              OK
+  F632 set to 3-phase                              OK
+  F632 settings: nphase=3, it2p1=2, it2p2=1, on_off=1, outserv=0, calcuse=0, iphauto=0, nneutral=0
+  type Yousaf F632: itype=1, chartype=0, interpol=0, frq=60, urat=4.16, irat=100, pmelt=Yousaf F632 melt (TypChatoc)
+Curve written for F632:
+  \subas.IntUser\IEEE 13 Node Feeder.IntPrj\Library.IntPrjfolder\Equipment Type Library.IntPrjfolder\Fuse Types Yousaf 2022\Yousaf F632 melt.TypChatoc  [TypChatoc]
+    i_use     = 1
+    i_type    = 6
+    i_multx   = 0
+    i_curves  = 2
+    i_drawt   = 0
+    tresunit  = 0
+    imin      = 1
+    imax      = 20
+    tmin      = 0.01
+    rTp       = 
+    rResetT   = 
+    expr      = []
+    vmat shape [25, 4], 25 rows
+      75.471, 1000, 91.107, 1000
+      98.519, 618.97, 118.93, 618.97
+      128.61, 383.12, 155.25, 383.12
+      167.88, 237.14, 202.66, 237.14
+      ...
+      34659, 0.016156, 41840, 0.016156
+      45243, 0.01, 54617, 0.01
+F632    b=6.38  632 end of LOHL632-645 (towards 645)       2-phase (nphase 2, it2p1 2, it2p2 1)  added
+        type Yousaf F632: melting + clearing curve table written
+F633    b=6.83  632 end of LOHL632-633 (towards 633)       3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F633: melting + clearing curve table written
+F634    b=8.32  LV side of XFM-1                           3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F634: melting + clearing curve table written
+F645    b=6.65  load L645-YcPQ at 645                      1-phase (nphase 1, it2p1 1, it2p2 1)  added
+        type Yousaf F645: melting + clearing curve table written
+F646    b=6.67  645 end of LOHL645-646 (towards 646)       2-phase (nphase 2, it2p1 2, it2p2 1)  added
+        type Yousaf F646: melting + clearing curve table written
+F-DL    b=6.54  load DistLod1 at nDL1                      3-phase (nphase 3, it2p1 0, it2p2 1)  added
+F-DL-2  b=6.54  load DistLod2 at nDL2                      3-phase (nphase 3, it2p1 0, it2p2 1)  added
+F-DL-3  b=6.54  load DistLod4 at nDL4                      3-phase (nphase 3, it2p1 0, it2p2 1)  added
+F-DL-4  b=6.54  load DistLod5 at nDL5                      3-phase (nphase 3, it2p1 0, it2p2 1)  added
+F-DL-5  b=6.54  load DistributedLoad at nDL                3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F-DL: melting + clearing curve table written
+F671    b=6.08  671 end of LOHL671-680 (towards 680)       3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F671: melting + clearing curve table written
+F671-1  b=5.85  671 end of Switch (towards 692)            3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F671-1: melting + clearing curve table written
+F692    b=6.13  load L692-DcI at 692                       2-phase (nphase 2, it2p1 2, it2p2 0)  added
+        type Yousaf F692: melting + clearing curve table written
+F692-R  b=6.14  692 end of LC692-675 (towards 675)         3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F692-R: melting + clearing curve table written
+F675    b=6.19  load L675-YcPQ at 675                      3-phase (nphase 3, it2p1 0, it2p2 1)  added
+        type Yousaf F675: melting + clearing curve table written
+F671-2  b=5.87  671 end of LOHL671-684 (towards 684)       2-phase (nphase 2, it2p1 0, it2p2 2)  added
+        type Yousaf F671-2: melting + clearing curve table written
+F684    b=6.15  684 end of LOHL684-611 (towards 611)       1-phase (nphase 1, it2p1 1, it2p2 1)  added
+        type Yousaf F684: melting + clearing curve table written
+F611    b=6.19  load L611-YcI at 611                       1-phase (nphase 1, it2p1 2, it2p2 1)  added
+        type Yousaf F611: melting + clearing curve table written
+F652    b=6.17  684 end of LC684-652A (towards 652)        1-phase (nphase 1, it2p1 0, it2p2 1)  added
+        type Yousaf F652: melting + clearing curve table written
+--------------------------------------------------------------------------------------
+Curve samples (MMT / TCT in s):
+  Fuse                1 kA             3 kA            10 kA
+  F632      9.550 / 13.403    1.322 / 1.855    0.151 / 0.212
+  F633     26.915 / 37.774    3.725 / 5.228    0.427 / 0.599
+  F634    831.764 / 1167.333 115.128 / 161.576  13.183 / 18.501
+  F645     17.783 / 24.957    2.461 / 3.454    0.282 / 0.396
+  F646     18.621 / 26.133    2.577 / 3.617    0.295 / 0.414
+  F-DL     13.804 / 19.373    1.911 / 2.681    0.219 / 0.307
+  F671       4.786 / 6.717    0.662 / 0.930    0.076 / 0.106
+  F671-1     2.818 / 3.955    0.390 / 0.547    0.045 / 0.063
+  F692       5.370 / 7.537    0.743 / 1.043    0.085 / 0.119
+  F692-R     5.495 / 7.712    0.761 / 1.068    0.087 / 0.122
+  F675       6.166 / 8.654    0.853 / 1.198    0.098 / 0.137
+  F671-2     2.951 / 4.142    0.408 / 0.573    0.047 / 0.066
+  F684       5.623 / 7.892    0.778 / 1.092    0.089 / 0.125
+  F611       6.166 / 8.654    0.853 / 1.198    0.098 / 0.137
+  F652       5.888 / 8.264    0.815 / 1.144    0.093 / 0.131
+======================================================================================
+CHECK: bolted fault just below each line fuse, DG out of service
+Fuse    fault |   I_fuse |  MMT eq6      TCT | PowerFactory result variables
+        at    |      (A) |      (s)      (s) |
+--------------------------------------------------------------------------------------
+F632    645   |     4312 |    0.688    0.965 | none
+F633    633   |     5778 |    1.145    1.607 | none
+F634    634   |    17708 |    4.713    6.614 | none
+F646    646   |     3676 |    1.788    2.509 | none
+F671    680   |     3655 |    0.464    0.652 | none
+F671-1  692   |     4433 |    0.193    0.271 | none
+F692-R  675   |     4014 |    0.450    0.632 | none
+F671-2  684   |     3192 |    0.365    0.513 | none
+F684    611   |     2065 |    1.525    2.141 | none
+F652    652   |     2029 |    1.648    2.313 | none
+--------------------------------------------------------------------------------------
+Load fuses (F645, F692, F675, F611, F-DL) carry no current for a bus fault and are
+not checked here; their curves are built the same way.
+======================================================================================
+Fuses in the network: 19

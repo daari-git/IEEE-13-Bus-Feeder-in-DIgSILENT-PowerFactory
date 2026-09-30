@@ -1,0 +1,308 @@
+RG60     632   -> LOHL650-632 (ElmLne) at bus1
+632      633   -> LOHL632-633 (ElmLne) at bus1
+632      645   -> LOHL632-645 (ElmLne) at bus1
+632      671   -> LOHL632-671start (ElmLne) at bus1
+XFM1-HV  side  -> XFM-1 (ElmTr2) at bushv
+XFM1-LV  side  -> XFM-1 (ElmTr2) at buslv
+645      646   -> LOHL645-646 (ElmLne) at bus1
+671      692   -> Switch (ElmCoup) at bus1
+671      684   -> LOHL671-684 (ElmLne) at bus1
+671      680   -> LOHL671-680 (ElmLne) at bus1
+692      675   -> LC692-675 (ElmLne) at bus1
+684      611   -> LOHL684-611 (ElmLne) at bus1
+684      652   -> LC684-652A (ElmLne) at bus1
+Generator type 4.05 MVA DG: xd 1.399999976158142 -> 1.4
+Generator type 4.05 MVA DG: xq 1.371999979019165 -> 1.372
+Generator type 4.05 MVA DG: xds 0.23100000619888306 -> 0.231
+Generator type 4.05 MVA DG: xqs 0.800000011920929 -> 0.8
+Generator type 4.05 MVA DG: xdss 0.11800000071525574 -> 0.118
+Generator type 4.05 MVA DG: xqss 0.11800000071525574 -> 0.118
+Generator type 4.05 MVA DG: xl 0.05 -> 0.05
+Generator type 4.05 MVA DG: rstr 0.00139999995008111 -> 0.0014
+External grid External Grid Sk''max=200.0 MVA  R/X max=0.10000000149011612  Sk''min=150.0 MVA  c=None
+Generator Synchronous Machine S=4.050000190734863 MVA  x''d=0.11800000071525574 pu  (out of service=1)
+Transformer 2-Winding Transformer 4.050000190734863 MVA  4.159999847412109/0.6899999976158142 kV  uk=15.0 %  vector group=Dyn5
+Transformer VregA          1.6670000553131104 MVA  2.4017770290374756/2.4017770290374756 kV  uk=0.0 %  vector group=Ii0
+Transformer VregB          1.6670000553131104 MVA  2.4017770290374756/2.4017770290374756 kV  uk=0.0 %  vector group=Ii0
+Transformer VregC          1.6670000553131104 MVA  2.4017770290374756/2.4017770290374756 kV  uk=0.0 %  vector group=Ii0
+Transformer XFM-1          0.5 MVA  4.159999847412109/0.47999998927116394 kV  uk=2.2825424671173096 %  vector group=YNyn0
+
+=== Complete | grid Sk''=model 200 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 7.290 bus 9.051 | If,min branch 0.595 bus 0.653 kA
+  632      633   If,max at 633 : 3rst branch 6.885 bus 6.885 | If,min branch 0.789 bus 0.746 kA
+  632      645   If,max at 645 : 2psc branch 5.039 bus 5.020 | If,min branch 0.845 bus 0.720 kA
+  632      671   If,max at 671 : 3rst branch 4.428 bus 6.556 | If,min branch 0.408 bus 0.653 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 6.885 | If,min branch 0.069 bus 0.746 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 18.813 bus 18.813 | If,min branch 0.691 bus 0.093 kA
+  645      646   If,max at 646 : 2psc branch 4.200 bus 4.200 | If,min branch 0.780 bus 0.720 kA
+  671      692   If,max at 692 : 3rst branch 4.427 bus 6.556 | If,min branch 0.304 bus 0.683 kA
+  671      684   If,max at 684 : 2psc branch 4.484 bus 4.450 | If,min branch 0.697 bus 0.653 kA
+  671      680   If,max at 680 : 3rst branch 5.031 bus 5.031 | If,min branch 0.682 bus 0.682 kA
+  692      675   If,max at 675 : 3rst branch 5.791 bus 5.791 | If,min branch 0.755 bus 0.683 kA
+  684      611   If,max at 611 : spgf branch 2.373 bus 2.373 | If,min branch 0.720 bus 0.661 kA
+  684      652   If,max at 652 : spgf branch 2.310 bus 2.310 | If,min branch 0.697 bus 0.653 kA
+
+=== Complete | grid Sk''=model 200 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 7.302 bus 7.303 | If,min branch 1.084 bus 0.614 kA
+  632      633   If,max at 633 : 3rst branch 5.778 bus 5.778 | If,min branch 0.770 bus 0.727 kA
+  632      645   If,max at 645 : 2psc branch 4.312 bus 4.294 | If,min branch 0.836 bus 0.714 kA
+  632      671   If,max at 671 : 3rst branch 4.434 bus 4.433 | If,min branch 0.906 bus 0.614 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 5.778 | If,min branch 0.070 bus 0.727 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 17.708 bus 17.708 | If,min branch 0.703 bus 0.091 kA
+  645      646   If,max at 646 : 2psc branch 3.676 bus 3.676 | If,min branch 0.772 bus 0.714 kA
+  671      692   If,max at 692 : 3rst branch 4.433 bus 4.433 | If,min branch 0.733 bus 0.645 kA
+  671      684   If,max at 684 : 2psc branch 3.192 bus 3.160 | If,min branch 0.655 bus 0.614 kA
+  671      680   If,max at 680 : 3rst branch 3.655 bus 3.655 | If,min branch 0.643 bus 0.643 kA
+  692      675   If,max at 675 : 3rst branch 4.014 bus 4.014 | If,min branch 0.733 bus 0.645 kA
+  684      611   If,max at 611 : spgf branch 2.065 bus 2.065 | If,min branch 0.681 bus 0.624 kA
+  684      652   If,max at 652 : spgf branch 2.029 bus 2.029 | If,min branch 0.655 bus 0.614 kA
+
+=== Complete | grid Sk''=25 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 2.736 bus 4.509 | If,min branch 0.522 bus 0.624 kA
+  632      633   If,max at 633 : 3rst branch 3.922 bus 3.922 | If,min branch 0.741 bus 0.701 kA
+  632      645   If,max at 645 : 2psc branch 3.110 bus 3.085 | If,min branch 0.817 bus 0.699 kA
+  632      671   If,max at 671 : 3rst branch 2.228 bus 4.374 | If,min branch 0.349 bus 0.624 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 3.922 | If,min branch 0.068 bus 0.701 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 15.465 bus 15.465 | If,min branch 0.694 bus 0.091 kA
+  645      646   If,max at 646 : 2psc branch 2.785 bus 2.785 | If,min branch 0.756 bus 0.699 kA
+  671      692   If,max at 692 : 3rst branch 2.227 bus 4.374 | If,min branch 0.334 bus 0.644 kA
+  671      684   If,max at 684 : 2psc branch 3.172 bus 3.136 | If,min branch 0.668 bus 0.624 kA
+  671      680   If,max at 680 : 3rst branch 3.638 bus 3.638 | If,min branch 0.641 bus 0.641 kA
+  692      675   If,max at 675 : 3rst branch 4.029 bus 4.029 | If,min branch 0.735 bus 0.644 kA
+  684      611   If,max at 611 : spgf branch 1.811 bus 1.811 | If,min branch 0.680 bus 0.624 kA
+  684      652   If,max at 652 : spgf branch 1.816 bus 1.816 | If,min branch 0.668 bus 0.625 kA
+
+=== Complete | grid Sk''=25 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 2.780 bus 2.780 | If,min branch 1.007 bus 0.558 kA
+  632      633   If,max at 633 : 3rst branch 2.536 bus 2.536 | If,min branch 0.697 bus 0.658 kA
+  632      645   If,max at 645 : 2psc branch 2.130 bus 2.108 | If,min branch 0.790 bus 0.679 kA
+  632      671   If,max at 671 : 3rst branch 2.262 bus 2.261 | If,min branch 0.849 bus 0.558 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 2.536 | If,min branch 0.066 bus 0.658 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 12.471 bus 12.471 | If,min branch 0.717 bus 0.090 kA
+  645      646   If,max at 646 : 2psc branch 1.962 bus 1.962 | If,min branch 0.733 bus 0.679 kA
+  671      692   If,max at 692 : 3rst branch 2.261 bus 2.261 | If,min branch 0.691 bus 0.580 kA
+  671      684   If,max at 684 : 2psc branch 1.788 bus 1.755 | If,min branch 0.595 bus 0.558 kA
+  671      680   If,max at 680 : 3rst branch 2.034 bus 2.034 | If,min branch 0.575 bus 0.575 kA
+  692      675   If,max at 675 : 3rst branch 2.146 bus 2.146 | If,min branch 0.676 bus 0.580 kA
+  684      611   If,max at 611 : spgf branch 1.409 bus 1.409 | If,min branch 0.614 bus 0.562 kA
+  684      652   If,max at 652 : spgf branch 1.418 bus 1.418 | If,min branch 0.595 bus 0.558 kA
+
+=== Complete | grid Sk''=35 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 3.448 bus 5.211 | If,min branch 0.543 bus 0.635 kA
+  632      633   If,max at 633 : 3rst branch 4.448 bus 4.448 | If,min branch 0.757 bus 0.717 kA
+  632      645   If,max at 645 : 2psc branch 3.484 bus 3.460 | If,min branch 0.826 bus 0.707 kA
+  632      671   If,max at 671 : 3rst branch 2.666 bus 4.812 | If,min branch 0.365 bus 0.635 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 4.448 | If,min branch 0.068 bus 0.717 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 16.252 bus 16.252 | If,min branch 0.694 bus 0.092 kA
+  645      646   If,max at 646 : 2psc branch 3.079 bus 3.079 | If,min branch 0.764 bus 0.707 kA
+  671      692   If,max at 692 : 3rst branch 2.666 bus 4.812 | If,min branch 0.326 bus 0.657 kA
+  671      684   If,max at 684 : 2psc branch 3.456 bus 3.421 | If,min branch 0.677 bus 0.635 kA
+  671      680   If,max at 680 : 3rst branch 3.937 bus 3.937 | If,min branch 0.654 bus 0.654 kA
+  692      675   If,max at 675 : 3rst branch 4.393 bus 4.393 | If,min branch 0.742 bus 0.657 kA
+  684      611   If,max at 611 : spgf branch 1.958 bus 1.958 | If,min branch 0.693 bus 0.636 kA
+  684      652   If,max at 652 : spgf branch 1.946 bus 1.946 | If,min branch 0.677 bus 0.635 kA
+
+=== Complete | grid Sk''=35 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 3.482 bus 3.483 | If,min branch 1.033 bus 0.577 kA
+  632      633   If,max at 633 : 3rst branch 3.107 bus 3.107 | If,min branch 0.723 bus 0.683 kA
+  632      645   If,max at 645 : 2psc branch 2.550 bus 2.527 | If,min branch 0.807 bus 0.692 kA
+  632      671   If,max at 671 : 3rst branch 2.692 bus 2.691 | If,min branch 0.869 bus 0.577 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 3.107 | If,min branch 0.066 bus 0.683 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 13.804 bus 13.804 | If,min branch 0.712 bus 0.090 kA
+  645      646   If,max at 646 : 2psc branch 2.317 bus 2.317 | If,min branch 0.747 bus 0.692 kA
+  671      692   If,max at 692 : 3rst branch 2.691 bus 2.691 | If,min branch 0.706 bus 0.602 kA
+  671      684   If,max at 684 : 2psc branch 2.087 bus 2.055 | If,min branch 0.616 bus 0.577 kA
+  671      680   If,max at 680 : 3rst branch 2.379 bus 2.379 | If,min branch 0.598 bus 0.598 kA
+  692      675   If,max at 675 : 3rst branch 2.529 bus 2.529 | If,min branch 0.700 bus 0.602 kA
+  684      611   If,max at 611 : spgf branch 1.575 bus 1.575 | If,min branch 0.637 bus 0.583 kA
+  684      652   If,max at 652 : spgf branch 1.576 bus 1.576 | If,min branch 0.616 bus 0.577 kA
+
+=== Complete | grid Sk''=50 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 4.320 bus 6.082 | If,min branch 0.561 bus 0.642 kA
+  632      633   If,max at 633 : 3rst branch 5.059 bus 5.059 | If,min branch 0.770 bus 0.728 kA
+  632      645   If,max at 645 : 2psc branch 3.901 bus 3.878 | If,min branch 0.834 bus 0.712 kA
+  632      671   If,max at 671 : 3rst branch 3.147 bus 5.290 | If,min branch 0.379 bus 0.642 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 5.059 | If,min branch 0.068 bus 0.728 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 17.037 bus 17.037 | If,min branch 0.693 bus 0.092 kA
+  645      646   If,max at 646 : 2psc branch 3.395 bus 3.395 | If,min branch 0.770 bus 0.712 kA
+  671      692   If,max at 692 : 3rst branch 3.146 bus 5.290 | If,min branch 0.318 bus 0.667 kA
+  671      684   If,max at 684 : 2psc branch 3.754 bus 3.718 | If,min branch 0.685 bus 0.642 kA
+  671      680   If,max at 680 : 3rst branch 4.252 bus 4.252 | If,min branch 0.665 bus 0.665 kA
+  692      675   If,max at 675 : 3rst branch 4.784 bus 4.784 | If,min branch 0.747 bus 0.667 kA
+  684      611   If,max at 611 : spgf branch 2.094 bus 2.094 | If,min branch 0.704 bus 0.646 kA
+  684      652   If,max at 652 : spgf branch 2.067 bus 2.067 | If,min branch 0.685 bus 0.642 kA
+
+=== Complete | grid Sk''=50 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 4.347 bus 4.347 | If,min branch 1.053 bus 0.591 kA
+  632      633   If,max at 633 : 3rst branch 3.774 bus 3.774 | If,min branch 0.742 bus 0.701 kA
+  632      645   If,max at 645 : 2psc branch 3.020 bus 2.998 | If,min branch 0.819 bus 0.701 kA
+  632      671   If,max at 671 : 3rst branch 3.165 bus 3.164 | If,min branch 0.884 bus 0.591 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 3.774 | If,min branch 0.067 bus 0.701 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 15.071 bus 15.071 | If,min branch 0.709 bus 0.090 kA
+  645      646   If,max at 646 : 2psc branch 2.700 bus 2.700 | If,min branch 0.757 bus 0.701 kA
+  671      692   If,max at 692 : 3rst branch 3.164 bus 3.164 | If,min branch 0.717 bus 0.619 kA
+  671      684   If,max at 684 : 2psc branch 2.404 bus 2.372 | If,min branch 0.631 bus 0.591 kA
+  671      680   If,max at 680 : 3rst branch 2.743 bus 2.743 | If,min branch 0.616 bus 0.616 kA
+  692      675   If,max at 675 : 3rst branch 2.940 bus 2.940 | If,min branch 0.717 bus 0.619 kA
+  684      611   If,max at 611 : spgf branch 1.733 bus 1.733 | If,min branch 0.654 bus 0.599 kA
+  684      652   If,max at 652 : spgf branch 1.725 bus 1.725 | If,min branch 0.631 bus 0.591 kA
+
+=== Complete | grid Sk''=75 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 5.412 bus 7.175 | If,min branch 0.576 bus 0.648 kA
+  632      633   If,max at 633 : 3rst branch 5.774 bus 5.774 | If,min branch 0.779 bus 0.737 kA
+  632      645   If,max at 645 : 2psc branch 4.365 bus 4.344 | If,min branch 0.839 bus 0.716 kA
+  632      671   If,max at 671 : 3rst branch 3.674 bus 5.812 | If,min branch 0.393 bus 0.648 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 5.774 | If,min branch 0.068 bus 0.737 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 17.818 bus 17.818 | If,min branch 0.693 bus 0.092 kA
+  645      646   If,max at 646 : 2psc branch 3.734 bus 3.734 | If,min branch 0.775 bus 0.716 kA
+  671      692   If,max at 692 : 3rst branch 3.673 bus 5.812 | If,min branch 0.311 bus 0.675 kA
+  671      684   If,max at 684 : 2psc branch 4.065 bus 4.030 | If,min branch 0.691 bus 0.648 kA
+  671      680   If,max at 680 : 3rst branch 4.582 bus 4.582 | If,min branch 0.673 bus 0.673 kA
+  692      675   If,max at 675 : 3rst branch 5.204 bus 5.204 | If,min branch 0.751 bus 0.675 kA
+  684      611   If,max at 611 : spgf branch 2.221 bus 2.221 | If,min branch 0.712 bus 0.654 kA
+  684      652   If,max at 652 : spgf branch 2.178 bus 2.178 | If,min branch 0.691 bus 0.648 kA
+
+=== Complete | grid Sk''=75 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 5.432 bus 5.433 | If,min branch 1.069 bus 0.603 kA
+  632      633   If,max at 633 : 3rst branch 4.558 bus 4.558 | If,min branch 0.757 bus 0.715 kA
+  632      645   If,max at 645 : 2psc branch 3.546 bus 3.525 | If,min branch 0.828 bus 0.708 kA
+  632      671   If,max at 671 : 3rst branch 3.686 bus 3.685 | If,min branch 0.895 bus 0.603 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 4.558 | If,min branch 0.069 bus 0.715 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 16.269 bus 16.269 | If,min branch 0.706 bus 0.091 kA
+  645      646   If,max at 646 : 2psc branch 3.111 bus 3.111 | If,min branch 0.765 bus 0.708 kA
+  671      692   If,max at 692 : 3rst branch 3.685 bus 3.685 | If,min branch 0.725 bus 0.632 kA
+  671      684   If,max at 684 : 2psc branch 2.738 bus 2.706 | If,min branch 0.643 bus 0.603 kA
+  671      680   If,max at 680 : 3rst branch 3.129 bus 3.129 | If,min branch 0.629 bus 0.629 kA
+  692      675   If,max at 675 : 3rst branch 3.386 bus 3.386 | If,min branch 0.725 bus 0.632 kA
+  684      611   If,max at 611 : spgf branch 1.883 bus 1.883 | If,min branch 0.668 bus 0.612 kA
+  684      652   If,max at 652 : spgf branch 1.864 bus 1.864 | If,min branch 0.643 bus 0.603 kA
+
+=== Complete | grid Sk''=100 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 6.208 bus 7.971 | If,min branch 0.585 bus 0.650 kA
+  632      633   If,max at 633 : 3rst branch 6.263 bus 6.263 | If,min branch 0.784 bus 0.742 kA
+  632      645   If,max at 645 : 2psc branch 4.668 bus 4.648 | If,min branch 0.842 bus 0.718 kA
+  632      671   If,max at 671 : 3rst branch 4.015 bus 6.149 | If,min branch 0.400 bus 0.650 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 6.263 | If,min branch 0.069 bus 0.742 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 18.284 bus 18.284 | If,min branch 0.692 bus 0.093 kA
+  645      646   If,max at 646 : 2psc branch 3.947 bus 3.947 | If,min branch 0.777 bus 0.718 kA
+  671      692   If,max at 692 : 3rst branch 4.013 bus 6.149 | If,min branch 0.308 bus 0.679 kA
+  671      684   If,max at 684 : 2psc branch 4.258 bus 4.223 | If,min branch 0.694 bus 0.650 kA
+  671      680   If,max at 680 : 3rst branch 4.788 bus 4.788 | If,min branch 0.678 bus 0.678 kA
+  692      675   If,max at 675 : 3rst branch 5.471 bus 5.471 | If,min branch 0.753 bus 0.679 kA
+  684      611   If,max at 611 : spgf branch 2.293 bus 2.293 | If,min branch 0.716 bus 0.657 kA
+  684      652   If,max at 652 : spgf branch 2.241 bus 2.241 | If,min branch 0.694 bus 0.650 kA
+
+=== Complete | grid Sk''=100 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 6.225 bus 6.226 | If,min branch 1.076 bus 0.608 kA
+  632      633   If,max at 633 : 3rst branch 5.094 bus 5.094 | If,min branch 0.764 bus 0.721 kA
+  632      645   If,max at 645 : 2psc branch 3.891 bus 3.871 | If,min branch 0.832 bus 0.711 kA
+  632      671   If,max at 671 : 3rst branch 4.024 bus 4.023 | If,min branch 0.900 bus 0.608 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 5.094 | If,min branch 0.069 bus 0.721 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 16.955 bus 16.955 | If,min branch 0.705 bus 0.091 kA
+  645      646   If,max at 646 : 2psc branch 3.370 bus 3.370 | If,min branch 0.768 bus 0.711 kA
+  671      692   If,max at 692 : 3rst branch 4.023 bus 4.023 | If,min branch 0.729 bus 0.638 kA
+  671      684   If,max at 684 : 2psc branch 2.947 bus 2.915 | If,min branch 0.649 bus 0.608 kA
+  671      680   If,max at 680 : 3rst branch 3.370 bus 3.370 | If,min branch 0.636 bus 0.636 kA
+  692      675   If,max at 675 : 3rst branch 3.671 bus 3.671 | If,min branch 0.729 bus 0.638 kA
+  684      611   If,max at 611 : spgf branch 1.969 bus 1.969 | If,min branch 0.674 bus 0.618 kA
+  684      652   If,max at 652 : spgf branch 1.943 bus 1.943 | If,min branch 0.649 bus 0.608 kA
+
+=== Complete | grid Sk''=150 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 7.290 bus 9.051 | If,min branch 0.594 bus 0.653 kA
+  632      633   If,max at 633 : 3rst branch 6.884 bus 6.884 | If,min branch 0.789 bus 0.746 kA
+  632      645   If,max at 645 : 2psc branch 5.039 bus 5.020 | If,min branch 0.845 bus 0.720 kA
+  632      671   If,max at 671 : 3rst branch 4.428 bus 6.556 | If,min branch 0.408 bus 0.653 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 6.884 | If,min branch 0.069 bus 0.746 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 18.813 bus 18.813 | If,min branch 0.692 bus 0.093 kA
+  645      646   If,max at 646 : 2psc branch 4.200 bus 4.200 | If,min branch 0.780 bus 0.720 kA
+  671      692   If,max at 692 : 3rst branch 4.427 bus 6.556 | If,min branch 0.303 bus 0.683 kA
+  671      684   If,max at 684 : 2psc branch 4.484 bus 4.450 | If,min branch 0.697 bus 0.653 kA
+  671      680   If,max at 680 : 3rst branch 5.031 bus 5.031 | If,min branch 0.682 bus 0.682 kA
+  692      675   If,max at 675 : 3rst branch 5.791 bus 5.791 | If,min branch 0.755 bus 0.683 kA
+  684      611   If,max at 611 : spgf branch 2.373 bus 2.373 | If,min branch 0.720 bus 0.661 kA
+  684      652   If,max at 652 : spgf branch 2.310 bus 2.310 | If,min branch 0.697 bus 0.653 kA
+
+=== Complete | grid Sk''=150 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 7.303 bus 7.304 | If,min branch 1.084 bus 0.614 kA
+  632      633   If,max at 633 : 3rst branch 5.778 bus 5.778 | If,min branch 0.770 bus 0.727 kA
+  632      645   If,max at 645 : 2psc branch 4.312 bus 4.294 | If,min branch 0.836 bus 0.714 kA
+  632      671   If,max at 671 : 3rst branch 4.434 bus 4.433 | If,min branch 0.906 bus 0.614 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 5.778 | If,min branch 0.070 bus 0.727 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 17.710 bus 17.710 | If,min branch 0.704 bus 0.091 kA
+  645      646   If,max at 646 : 2psc branch 3.676 bus 3.676 | If,min branch 0.772 bus 0.714 kA
+  671      692   If,max at 692 : 3rst branch 4.433 bus 4.433 | If,min branch 0.733 bus 0.645 kA
+  671      684   If,max at 684 : 2psc branch 3.192 bus 3.160 | If,min branch 0.655 bus 0.614 kA
+  671      680   If,max at 680 : 3rst branch 3.655 bus 3.655 | If,min branch 0.643 bus 0.643 kA
+  692      675   If,max at 675 : 3rst branch 4.014 bus 4.014 | If,min branch 0.733 bus 0.645 kA
+  684      611   If,max at 611 : spgf branch 2.064 bus 2.064 | If,min branch 0.681 bus 0.624 kA
+  684      652   If,max at 652 : spgf branch 2.029 bus 2.029 | If,min branch 0.655 bus 0.614 kA
+
+=== Complete | grid Sk''=300 MVA | DG in ===
+  RG60     632   If,max at 632 : 3rst branch 8.838 bus 10.592 | If,min branch 0.604 bus 0.656 kA
+  632      633   If,max at 633 : 3rst branch 7.698 bus 7.698 | If,min branch 0.793 bus 0.750 kA
+  632      645   If,max at 645 : 2psc branch 5.501 bus 5.484 | If,min branch 0.847 bus 0.722 kA
+  632      671   If,max at 671 : 3rst branch 4.940 bus 7.057 | If,min branch 0.416 bus 0.656 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 7.698 | If,min branch 0.070 bus 0.750 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 19.420 bus 19.420 | If,min branch 0.691 bus 0.093 kA
+  645      646   If,max at 646 : 2psc branch 4.503 bus 4.503 | If,min branch 0.782 bus 0.722 kA
+  671      692   If,max at 692 : 3rst branch 4.938 bus 7.057 | If,min branch 0.299 bus 0.687 kA
+  671      684   If,max at 684 : 2psc branch 4.752 bus 4.718 | If,min branch 0.701 bus 0.656 kA
+  671      680   If,max at 680 : 3rst branch 5.320 bus 5.320 | If,min branch 0.686 bus 0.686 kA
+  692      675   If,max at 675 : 3rst branch 6.180 bus 6.180 | If,min branch 0.757 bus 0.687 kA
+  684      611   If,max at 611 : spgf branch 2.460 bus 2.460 | If,min branch 0.724 bus 0.665 kA
+  684      652   If,max at 652 : spgf branch 2.385 bus 2.385 | If,min branch 0.701 bus 0.656 kA
+
+=== Complete | grid Sk''=300 MVA | DG out ===
+  RG60     632   If,max at 632 : 3rst branch 8.845 bus 8.847 | If,min branch 1.091 bus 0.619 kA
+  632      633   If,max at 633 : 3rst branch 6.674 bus 6.674 | If,min branch 0.777 bus 0.733 kA
+  632      645   If,max at 645 : 2psc branch 4.837 bus 4.820 | If,min branch 0.840 bus 0.717 kA
+  632      671   If,max at 671 : 3rst branch 4.943 bus 4.941 | If,min branch 0.911 bus 0.619 kA
+  XFM1-HV  side  If,max at 633 : 3rst branch 0.000 bus 6.674 | If,min branch 0.070 bus 0.733 kA
+  XFM1-LV  side  If,max at 634 : 3rst branch 18.541 bus 18.541 | If,min branch 0.703 bus 0.091 kA
+  645      646   If,max at 646 : 2psc branch 4.041 bus 4.041 | If,min branch 0.775 bus 0.717 kA
+  671      692   If,max at 692 : 3rst branch 4.941 bus 4.941 | If,min branch 0.737 bus 0.651 kA
+  671      684   If,max at 684 : 2psc branch 3.485 bus 3.453 | If,min branch 0.661 bus 0.619 kA
+  671      680   If,max at 680 : 3rst branch 3.995 bus 3.995 | If,min branch 0.649 bus 0.649 kA
+  692      675   If,max at 675 : 3rst branch 4.431 bus 4.431 | If,min branch 0.737 bus 0.651 kA
+  684      611   If,max at 611 : spgf branch 2.169 bus 2.169 | If,min branch 0.687 bus 0.630 kA
+  684      652   If,max at 652 : spgf branch 2.122 bus 2.122 | If,min branch 0.661 bus 0.619 kA
+
+SUMMARY - average match with the paper (100 - |mine - paper| / paper x 100)
+Study                                                         Inom    If,min    If,max   Overall
+Complete | grid Sk''=model 200 MVA | DG out                   100%       92%       83%       92%
+Complete | grid Sk''=150 MVA | DG out                         100%       92%       83%       92%
+Complete | grid Sk''=300 MVA | DG out                         100%       92%       81%       91%
+Complete | grid Sk''=100 MVA | DG out                         100%       92%       81%       91%
+Complete | grid Sk''=75 MVA | DG out                          100%       92%       78%       90%
+Complete | grid Sk''=75 MVA | DG in                           100%       80%       87%       89%
+Complete | grid Sk''=100 MVA | DG in                          100%       80%       86%       89%
+Complete | grid Sk''=model 200 MVA | DG in                    100%       80%       84%       88%
+Complete | grid Sk''=150 MVA | DG in                          100%       80%       84%       88%
+Complete | grid Sk''=50 MVA | DG in                           100%       80%       81%       87%
+Complete | grid Sk''=50 MVA | DG out                          100%       91%       68%       86%
+Complete | grid Sk''=300 MVA | DG in                          100%       80%       76%       85%
+Complete | grid Sk''=35 MVA | DG in                           100%       80%       75%       85%
+Complete | grid Sk''=35 MVA | DG out                          100%       91%       58%       83%
+Complete | grid Sk''=25 MVA | DG in                           100%       80%       67%       83%
+Complete | grid Sk''=25 MVA | DG out                          100%       89%       50%       79%
+
+BEST MATCH: Complete | grid Sk''=model 200 MVA | DG out
+------------------------------------------------------------------------------------------------
+From     To    |  Inom A   paper  match | If,min  paper  match | If,max  paper  match | value
+------------------------------------------------------------------------------------------------
+RG60     632   |   587.6   587.1   100% |   1.08   1.24    87% |   7.30   5.41    65% | branch
+632      633   |    81.1    81.1   100% |   0.77   0.72    93% |   5.78   6.73    86% | branch
+632      645   |   143.4   143.3   100% |   0.84   0.93    90% |   4.31   4.25    99% | branch
+632      671   |   479.0   478.2   100% |   0.91   1.08    84% |   4.43   4.52    98% | branch
+XFM1-HV  side  |    81.1    81.1   100% |   0.73   0.73   100% |   5.78   6.48    89% | bus
+XFM1-LV  side  |   706.3   704.7   100% |   0.70   0.59    81% |  17.71  18.76    94% | branch
+645      646   |    65.4    64.9    99% |   0.77   0.84    92% |   3.68   3.64    99% | branch
+671      692   |   229.8   229.3   100% |   0.73   0.78    94% |   4.43   3.69    80% | branch
+671      684   |    71.1    70.9   100% |   0.66   0.69    95% |   3.19   3.47    92% | branch
+671      680   |     0.0     0.0   100% |   0.64   0.59    91% |   3.65   6.25    58% | branch
+692      675   |   205.9   205.9   100% |   0.73   0.71    97% |   4.01   7.83    51% | branch
+684      611   |    71.1    70.8   100% |   0.68   0.63    92% |   2.06   1.93    93% | branch
+684      652   |    63.0    63.1   100% |   0.66   0.66    99% |   2.03   2.67    76% | branch
+------------------------------------------------------------------------------------------------
+AVERAGE MATCH: Inom 100% | If,min 92% | If,max 83% | overall 92%
+Could not write CSV (close it in Excel first): [Errno 13] Permission denied: 'D:\\Protection and co-ordination\\Table_II_results.csv'

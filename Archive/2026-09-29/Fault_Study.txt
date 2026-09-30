@@ -1,0 +1,14 @@
+Devices: R1, R2, F-DL, F-DL-2, F-DL-3, F-DL-4, F-DL-5, F611, F632, F633, F634, F645, F646, F652, F671, F671-1, F671-2, F675, F684, F692, F692-R
+Load flow, DG out: R1 587.6 A, P 3.578 MW at its cubicle
+Load flow, DG out: R2 470.9 A, P -2.460 MW at its cubicle
+Load flow, DG in: R1 289.2 A, P 0.290 MW at its cubicle
+Load flow, DG in: R2 257.8 A, P 0.761 MW at its cubicle
+Fig8      LG     611              Rf 0.0: OK
+Fig9      LLG    LC692-675@50%    Rf 1.0: OK
+Fig10     LL     684              Rf 0.2: OK
+Fig11     LL     646              Rf 1.0: OK
+Fig12     LL     645              Rf 1.5: OK
+Fig13     LLL    LOHL632-633@10%  Rf 0.0: OK
+Fig15-16  LL     646              Rf 0.0: OK
+Saved 2629 rows to D:\Protection and co-ordination\Fault_Study.csv (18 faults did not solve)
+DG rating restored: 4.050000190734863 MVA
