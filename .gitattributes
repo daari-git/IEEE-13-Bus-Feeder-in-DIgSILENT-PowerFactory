@@ -1,0 +1,9 @@
+# Never convert line endings in binary files
+*.pdf binary
+*.pfd binary
+*.png binary
+*.svg binary
+*.pptx binary
+*.xlsx binary
+*.docx binary
+*.rar binary

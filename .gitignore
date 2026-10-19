@@ -1,0 +1,15 @@
+# Reference paper (IEEE, copyrighted) - kept locally, not redistributed
+An Adaptive Overcurrent Protection Scheme*.pdf
+
+# Separate work, not part of this project
+Real feeder/
+
+# Archives
+*.rar
+
+# Python
+__pycache__/
+*.pyc
+
+# Output written when the scripts run (regenerated)
+**/scripts/results/
