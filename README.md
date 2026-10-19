@@ -2,9 +2,6 @@
 
 **Author: Subash Khanal**
 
-M.Sc. project in Power System Engineering, Department of Electrical Engineering, Pulchowk Campus,
-Institute of Engineering, Tribhuvan University, October 2026.
-
 The project implements and evaluates the protection strategy of
 
 > M. Yousaf, A. Jalilian, K. M. Muttaqi, D. Sutanto, "An Adaptive Overcurrent Protection Scheme for
